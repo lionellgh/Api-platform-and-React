@@ -1,0 +1,75 @@
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: stretch;
+    font-size: 2em;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: solid 0.7px black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 1.5em;
+
+}
+
+//---- Details Component
+
+.details{
+
+    text-align: center;
+
+    table{
+        font-size:1.2em;
+    }
+
+    div{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+
+        a{
+            margin-right: 10px;
+            margin-left: 10px;
+            font-size: 1.4em;
+            text-decoration: none;
+        }
+    }
+
+}
+
+
+//----NewGift Component
+
+.newGift{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+
+    form{
+
+    }
+}
+
+//----Home Component
+
+
+.home{
+
+}
+
+
+//----EditGift Component
+
+.editGift{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}

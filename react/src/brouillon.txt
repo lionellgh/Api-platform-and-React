@@ -1,0 +1,32 @@
+//import { Admin, Resource, ListGuesser } from 'react-admin';
+//import jsonServerProvider from 'ra-data-json-server';
+//import { Admin, Resource } from 'react-admin';
+//import simpleRestProvider from 'ra-data-simple-rest';
+//import Dashboard from './Dashboard';
+//import {GiftList} from './Gifts';
+
+
+//const App = () => (
+  //  <Admin dashboard={Dashboard} dataProvider={simpleRestProvider('/api')}>
+   //     <Resource name="gifts" list={GiftList} />
+   // </Admin>
+//);
+
+
+
+ const gift = {name, description, url, price, owner, year};
+
+        fetch('http://127.0.0.1:8000/api/gifts',{
+            method:'POST',
+            headers:{'Content-type': 'application/json'},
+            body: JSON.stringify(gift)
+        }).then(() => {
+            console.log(gift)
+        })
+
+
+
+
+        onClick={() => {
+                                            navigate(`/details/${gifts.id}`)
+                                        }}
